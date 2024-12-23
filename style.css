@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f6fa;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #0066cc;
+    color: white;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    padding: 0.5em;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-bar button {
+    padding: 0.5em;
+    border: none;
+    background-color: #004a99;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-info {
+    text-align: right;
+  }
+  
+  .navigation {
+    background-color: #e0e7f1;
+    padding: 0.5em 0;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navigation li {
+    margin: 0 1em;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  .main-content {
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  
+  .feature-card {
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+  }
+  
+  .feature-card img {
+    width: 50px;
+    margin-bottom: 0.5em;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #0066cc;
+    color: white;
+  }
+
+  .services {
+    background-color: #f9f9f9;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services h2 {
+    text-align: center;
+    color: #0066cc;
+  }
+  
+  .services p {
+    text-align: center;
+    margin: 1em 0;
+  }
+  
+  .services ul {
+    list-style-type: disc;
+    padding-left: 2em;
+  }
+  
+  .contact-section {
+    background-color: #ffffff;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section h2 {
+    text-align: center;
+    color: #0066cc;
+  }
+  
+  .contact-section address {
+    text-align: center;
+    line-height: 1.8;
+    font-style: normal;
+  }
+  
+  
